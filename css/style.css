@@ -1,0 +1,252 @@
+/*  Universal Selector - Reset all html elements to the following */
+* { 
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+    border: 0;
+}
+
+/* set the html tag to max-width of the screen */
+html {
+    max-width: 100%;
+}
+
+/* Header Section */
+
+/* Style the header section */
+header {
+    background-color: #4f6d2a;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Style the logo */
+.logo img {
+    width: 80px;
+    padding-right: 10px;
+}
+
+h1 {
+    color: white;
+    font-style: italic;
+    font-size: 22px;
+    width: 100%;
+}
+
+.header-nav {
+    width: 100%;
+}
+
+/* Set the unorder list to display flex and change flow to horizontal */
+/* move the content to the end and set the gap between children to 30px */
+.header-ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+/* Pseuod-Class hover */
+a:hover {
+    font-style: italic;
+}
+
+/* remove bullet point */
+li {
+    list-style-type: none;
+}
+
+/*Remove underline from links */
+a {
+    text-decoration: none;
+    color: rgb(255,255,255);
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Start of Main Section */
+
+/*Style the hero image */
+
+.hero {
+    height: 600px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slide {
+    display: none;
+    width: 100%;
+}
+
+h2 {
+    color: #4f6d2a;
+    padding-top: 30px;
+    padding-left: 25px;
+    font-size: 35px;
+}
+
+.paragraph {
+    font-size: 18px;
+    padding-top: 15px;
+ 
+}
+
+
+.paragraph p {
+    margin-bottom: 15px;
+}
+
+
+h3 {
+    color: #4f6d2a;
+    padding-top: 30px;
+    padding-left: 25px;
+    font-size: 22px;
+}
+
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.card {
+    display: flex;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+p {
+    padding-left: 25px;
+}
+
+.card img {
+    height: 250px;
+    object-fit: cover;
+    border-radius: 30px 0 30px 0;
+}
+
+
+.watercard {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.sidetext { 
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 15px;
+    
+
+}
+
+.sideimage {
+    object-fit: cover;
+    max-width: 50%;
+    height: 300px;
+    width: 600px;
+    border-radius: 30px 0 30px 0;
+    margin-right: 25px;
+}
+
+
+
+
+
+
+
+
+/*views*/
+.views {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;    
+}
+
+q {
+    width: 100%;
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
+.views p {
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Start of Footer Section */
+
+footer {
+    background-color:#4f6d2a;
+    padding: 40px 0;
+    color: white;
+    line-height: 32px;
+    font-size: 18px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+.footer-contact img {
+    width: 15px;
+}
